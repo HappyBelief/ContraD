@@ -2,7 +2,7 @@ import os
 
 from torchvision import datasets, transforms
 
-DATA_PATH = os.environ.get('DATA_DIR', 'data/')
+DATA_PATH = os.environ.get('DATA_DIR', './')
 
 
 def get_dataset(dataset):
