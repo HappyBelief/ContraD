@@ -127,7 +127,7 @@ def _sample_generator(G, num_samples, style_mix=0.9, enable_grad=True):
 def get_options_dict(dataset=gin.REQUIRED,
                      loss=gin.REQUIRED,
                      batch_size=32, fid_size=10000,
-                     max_steps=800000, warmup=0, n_critic=1,
+                     max_steps=40000, warmup=0, n_critic=1,
                      lr=0.002, lr_d=None, beta=(.0, .99),
                      lbd=10., lbd2=10.):
     if lr_d is None:
