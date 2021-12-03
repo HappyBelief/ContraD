@@ -1,5 +1,5 @@
 FROM pytorch/pytorch
-FROM nvidia/cuda
+FROM 749dab12698f
 
 RUN mkdir /app
 
