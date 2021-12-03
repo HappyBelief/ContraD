@@ -2,10 +2,10 @@ FROM pytorch/pytorch
 
 RUN mkdir /app
 
-COPY ./requirement_pip.txt /app
+COPY ./environment_pip.txt /app
 
 WORKDIR /app
 
-RUN pip install -r requirement_pip.txt
+RUN pip install -r environment_pip.txt
 
 WORKDIR /workdir
